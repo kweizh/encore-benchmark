@@ -1,0 +1,5 @@
+{
+  "task_name": "encore_saas_template_deploy",
+  "task_description": "# Create a SaaS Application with Encore\n\n## Background\nYou have Encore CLI available in the environment. Create a new Encore application using the SaaS starter template.\n\n## Requirements\n- Create a new Encore application named `my-saas-app`.\n- Use the `ts/saas-starter` example template.\n- The application must be created in the `/home/user` directory.\n\n## Implementation Guide\n1. Run the `encore app create` command with the appropriate flags to create `my-saas-app` using the `ts/saas-starter` template.\n\n## Constraints\n- Project path: /home/user/my-saas-app\n",
+  "truth": "# Verification Plan\n\n## Setup\n1. `cd /home/user`\n\n## Verification Steps\n1. Verify that the directory `/home/user/my-saas-app` exists.\n2. Verify that `/home/user/my-saas-app/encore.app` exists.\n3. Verify that `/home/user/my-saas-app/frontend/package.json` exists.\n\n## Expected Results\n- The command to create the app succeeds.\n- The project directory `my-saas-app` is created.\n- The Encore application files and frontend files from the template are present."
+}

@@ -1,0 +1,5 @@
+{
+  "task_name": "url_shortener_basic",
+  "task_description": "# Encore URL Shortener Basic\n\n## Background\nEncore is a backend development platform designed to simplify building distributed systems. You need to create a URL shortener project using the official TypeScript template.\n\n## Requirements\n- Create a new Encore app named `url-shortener` using the `ts/url-shortener` template.\n- The project must be created in `/home/user/url-shortener`.\n\n## Implementation Guide\n1. Navigate to `/home/user`.\n2. Run `encore app create url-shortener --example=ts/url-shortener`.\n\n## Constraints\n- Project path: /home/user/url-shortener",
+  "truth": "# Verification Plan\n\n## Setup\n1. `cd /home/user/url-shortener`\n\n## Verification Steps\n1. Verify that the directory `/home/user/url-shortener` exists.\n2. Verify that `encore.app` file exists in the directory.\n3. Verify that the project contains the `url` service (e.g., `url/url.ts` exists).\n4. Verify that the `package.json` file exists in the project directory."
+}
